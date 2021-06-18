@@ -1,6 +1,10 @@
 import os
 from time import sleep
 
+### MY LIBRARIES ###
+import util.cmd
+import install
+
 ### VARIABLES ###
 choice = ''
 
@@ -12,10 +16,14 @@ def display_welcome():
     print("\t**********************************************")
 
 def display_options():
-    print("\nQ1\n")
+    print("\n1. Install necessary library\n")
     print("\nQ2\n")
     print("[q] Quit.")
     return input("What would you like to do? ")
+
+def install_test():
+    util.cmd.run_command(install.install_beautifulsoup4)
+    #util.cmd.run_command(install.install_request)
 
 ### MAIN PROGRAM ###
 
@@ -24,6 +32,7 @@ while choice != 'q':
     choice = display_options()
 
     if choice == '1':
+        install_test()
         print("\nAnswer 1.\n")
     elif choice == '2':
         print("\nAnswer 2!\n")

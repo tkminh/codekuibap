@@ -12,12 +12,12 @@ choice = ''
 def display_welcome():
     
     print("\t**********************************************")
-    print("\t***    Codekuibap - Hello old friends!     ***")
+    print("\t***               Codekuibap               ***")
     print("\t**********************************************")
 
 def display_options():
     print("\n1. Install necessary library\n")
-    print("\nQ2\n")
+    print("\n2. Doing task\n")
     print("[q] Quit.")
     return input("What would you like to do? ")
 

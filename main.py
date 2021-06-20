@@ -4,7 +4,8 @@ from time import sleep
 ### MY LIBRARIES ###
 import util.cmd
 import install
-import workout.learn1
+#import workout.learn1
+import workout.learn4
 
 ### VARIABLES ###
 choice = ''

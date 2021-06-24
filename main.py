@@ -5,8 +5,10 @@ from time import sleep
 import util.cmd
 import install
 #import workout.learn1
-import workout.learn6
-import DSML.learnnumpy
+#import workout.learn6
+#import DSML.learnnumpy
+#import DSML.learnpandas
+import DSML.learnmatplot
 
 ### VARIABLES ###
 choice = ''

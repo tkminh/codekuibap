@@ -50,12 +50,12 @@ arr_np = np.array([arr, arr2])
 # # print(np.random.random((4,4)))
 # print(np.transpose(c))
 
-# a = np.array([0,1,2])
-# b = np.array([3,4,5])
-# c = np.array([6,7,8])
+a = np.array([0,1,2])
+b = np.array([3,4,5])
+c = np.array([6,7,8])
 
-# print(np.column_stack((a,b,c)))
-# print(np.row_stack((a,b,c)))
+print(np.column_stack((a,b,c)))
+print(np.row_stack((a,b,c)))
 
 # print("########")
 # F = np.arange(16).reshape((4, 4))

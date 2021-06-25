@@ -8,7 +8,9 @@ import install
 #import workout.learn6
 #import DSML.learnnumpy
 #import DSML.learnpandas
-import DSML.learnmatplot
+#import DSML.learnmatplot
+import DSML.learnscikit
+import DSML.learndeeplearning
 
 ### VARIABLES ###
 choice = ''

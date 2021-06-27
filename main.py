@@ -9,8 +9,10 @@ import install
 #import DSML.learnnumpy
 #import DSML.learnpandas
 #import DSML.learnmatplot
-import DSML.learnscikit
-import DSML.learndeeplearning
+#import DSML.learnscikit
+#import DSML.learndeeplearning
+import DSML.learnkeras
+
 
 ### VARIABLES ###
 choice = ''

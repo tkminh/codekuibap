@@ -35,6 +35,8 @@ def prepare_data():
     # convert class vectors to binary class matrices
     y_train = keras.utils.to_categorical(y_train, num_classes)
     y_test = keras.utils.to_categorical(y_test, num_classes)
+    # show data
+    print(x_train)
 
 
 ##### define model
@@ -100,10 +102,10 @@ def load_image(filename):
 
 def main():
     prepare_data()
-    model = define_model()
-    train_model(model, "testconvnet.h5")
-    evaluate_model()
-    test_model()
-    print("Done")
+    # model = define_model()
+    # train_model(model, "testconvnet.h5")
+    # evaluate_model()
+    # test_model()
+    # print("Done")
 
 main()
